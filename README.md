@@ -71,7 +71,7 @@ Este proyecto es una aplicación de consola desarrollada en **Java** que permite
 
 1. Clona el repositorio:
    ```
-   git clone https://github.com/WalterAmbriz/sistema-gestion-cursos-java.git
+   https://github.com/WalterAmbriz/sistema-gestion-cursos-java.git
    ```
 3. Abre el proyecto en tu IDE favorito (NetBeans, IntelliJ IDEA o VSCode con soporte para Java).
 
