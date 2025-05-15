@@ -45,11 +45,25 @@ Este proyecto es una aplicación de consola desarrollada en **Java** que permite
 ## 🗂️ Estructura del proyecto
 ```
 └── sistema-gestion/
-    ├── model/        # Clases de dominio: Estudiante, Curso, Inscripcion
-    ├── service/      # Lógica de negocio: Gestores y validaciones
-    ├── persistence/  # Lectura/escritura en archivos o JSON
-    ├── menu/         # Interfaz por consola (Main.java)
-    └── utils/        # Validadores y herramientas auxiliares
+    ├── model/        
+    │   ├── Estudiante.java
+    │   ├── Curso.java
+    │   └── Inscripcion.java
+    │
+    ├── service/
+    │   ├── GestorEstudiantes.java
+    │   ├── GestorCursos.java
+    │   └── GestorInscripciones.java
+    │
+    ├── persistence/
+    │   ├── EstudianteJsonRepository.java
+    │   └── CursoJsonRepository.java
+    │
+    ├── menu/
+    │   └── MenuPrincipal.java
+    │
+    └── utils/
+        └── ValidadorDatos.java
 ```
 ---
 
