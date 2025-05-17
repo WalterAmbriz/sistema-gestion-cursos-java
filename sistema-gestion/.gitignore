@@ -1,4 +1,7 @@
 .vscode
-/lib
-/src/App.java
-README.md
+/lib/
+/bin/
+
+src/GuardarListaEstudiantesJson.java
+estudiantes.json
+str.txt
