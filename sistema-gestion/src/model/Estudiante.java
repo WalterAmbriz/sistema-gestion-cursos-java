@@ -51,6 +51,7 @@ public class Estudiante {
                 ", nombre= " + nombre + '\'' +
                 ", nota= " + nota +
                 ", asistencia= " + asistencia +
+                ", esAprovado= " + esAprobado() +
                 '}';
     }
 
