@@ -47,10 +47,10 @@ public class Estudiante {
 
     public String toString () {
         return "{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", nota=" + nota +
-                ", asistencia=" + asistencia +
+                "id= " + id +
+                ", nombre= " + nombre + '\'' +
+                ", nota= " + nota +
+                ", asistencia= " + asistencia +
                 '}';
     }
 
